@@ -1,4 +1,4 @@
-Game Style: []
+Game Style: [x]
 - 2D []
 - Top Down []
 
