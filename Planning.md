@@ -16,6 +16,7 @@ Need:
 - [ ] Combat management
 * [ ] Hitbox
 * [ ] Encounter screen
+- [ ] Merchant system
 
 Great:
 - [ ] Custom items
@@ -36,3 +37,4 @@ Nice:
 - [ ] Minimap
 - [ ] Combos
 - [ ] Background Music
+- [ ] Character customization
