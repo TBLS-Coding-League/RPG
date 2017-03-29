@@ -1,5 +1,5 @@
 Game Style:
-- [x] 2D
+- [] 2D
 - Top Down []
 
 Need: []
