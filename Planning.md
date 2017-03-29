@@ -1,8 +1,8 @@
-[ ] Game Style:
+Game Style:
 - [ ] 2D
 - [ ]  Top Down
 
-[ ] Need:
+Need:
 - [ ] Plot development
 - [ ] NPC management and interaction
 * [ ] Enemies
@@ -17,7 +17,7 @@
 * [ ] Hitbox
 * [ ] Encounter screen
 
-[ ] Great:
+Great:
 - [ ] Custom items
 - [ ] Cutscenes
 - [ ] Bosses
@@ -30,7 +30,7 @@
 - [ ] Multiple attack skills
 - [ ] Armor points
 
-[ ] Nice:
+Nice:
 - [ ] Logo
 - [ ] Multiplayer
 - [ ] Minimap
