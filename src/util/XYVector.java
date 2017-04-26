@@ -4,14 +4,6 @@ public class XYVector
 {
 	private double _xChange, _yChange;
 	
-	public static void main(String[] args)
-	{
-		XYVector vec1 = getZero();
-		XYVector walk = new XYVector(1.4, 0);
-		vec1.add(walk);
-		System.out.println("(" + vec1.getXChange() + ", " + vec1.getYChange() + ")");
-	}
-	
 	public XYVector(double xChange, double yChange)
 	{
 		_xChange = xChange;
