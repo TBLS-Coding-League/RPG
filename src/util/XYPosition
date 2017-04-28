@@ -125,6 +125,12 @@ public class XYPosition
 		return new XYVector(getX(), getY());
 	}
 	
+	@Override
+	public String toString()
+	{
+	    	return "(" + getX() + ", " + getY() + ")";
+	}
+	
 	/**
 	 * @return The constant origin position
 	 */
