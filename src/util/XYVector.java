@@ -84,6 +84,12 @@ public class XYVector
 		return Math.sqrt(getLengthSquared());
 	}
 	
+	@Override
+	public String toString()
+	{
+		return "(" + getXChange() + ", " + getYChange() + ")";
+	}
+	
 	/**
 	 * @return The constant zero vector
 	 */
