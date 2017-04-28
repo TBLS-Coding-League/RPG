@@ -17,14 +17,14 @@ public class XYPosition
 	{
 		return _x;
 	}
-  
-  /**
-   * Sets the x coordinate of this position
-   */
-  public void setX(double x)
-  {
-  	_x = x;
-  }
+	
+	/**
+	 * Sets the x coordinate of this position
+	 */
+	public void setX(double x)
+	{
+		_x = x;
+	}
 	
 	/**
 	 * @return The y coordinate of this position
@@ -33,14 +33,14 @@ public class XYPosition
 	{
 		return _y;
 	}
-  
-  /**
-   * Sets the y coordinate of this position
-   */
-  public double setY(double y)
-  {
-  	_y = y;
-  }
+	
+	/**
+	 * Sets the y coordinate of this position
+	 */
+	public void setY(double y)
+	{
+		_y = y;
+	}
 	
 	/**
 	 * Adds a vector to modify this position
@@ -54,11 +54,11 @@ public class XYPosition
 		
 		return this;
 	}
-  
-  /**
+	
+	/**
 	 * Directly adds value to the coordinates of this position
 	 * @param x The amount of x coordinates being added
-   * @param y The amount of y coordinates being added
+	 * @param y The amount of y coordinates being added
 	 * @return The position resulting from this addition
 	 */
 	public XYPosition add(double x, double y)
@@ -81,11 +81,11 @@ public class XYPosition
 		
 		return this;
 	}
-  
-  /**
+	
+	/**
 	 * Directly subtracts value from the coordinates of this position
 	 * @param x THe amount of x coordinates being subtracted
-   * @param y The amount of y coordinates being subtracted
+	 * @param y The amount of y coordinates being subtracted
 	 * @return The position resulting from this subtraction
 	 */
 	public XYPosition subtract(double x, double y)
@@ -114,16 +114,16 @@ public class XYPosition
 	{
 		return Math.sqrt(getDistanceSquared(other));
 	}
-  
-  
+	
+	
 	/**
 	 * Creates a new position vector representing this position with respect to the origin
 	 * @return The position vector representing this position
 	 */
-  public XYVector toPositionVector()
-  {
-  	return new XYVector(getX(), getY());
-  }
+	public XYVector toPositionVector()
+	{
+		return new XYVector(getX(), getY());
+	}
 	
 	/**
 	 * @return The constant origin position
