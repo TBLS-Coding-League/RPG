@@ -1,0 +1,24 @@
+public class PlayerInformationData
+{
+  public double LevelUpPoints = 0;
+  public void increaseLevelUpPoints(double level)
+  {
+  	LevelUpPoints+=level;
+  }
+  public double Strength = 0; 
+  public void increaseStrength(double strength )
+  {
+  	Strength+=strength;
+  }
+  public double Speed = 0;
+  public void increaseSpeed(double speed)
+  {
+    Speed+=speed;
+  }
+  public double Toughness = 0;
+  public void increaseToughness(double tough)
+  {
+    Toughness+=tough;
+  }
+  
+}
