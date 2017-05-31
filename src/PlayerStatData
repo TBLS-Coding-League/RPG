@@ -3,26 +3,26 @@ public class PlayerStatData
   public double DamageDealt = 0;
   public void increaseDamageDealt(double damage)
   {
-  	 
+  	DamageDealt+=damage;
   }
   public double StepsTaken = 0; 
   public void increaseStepsTaken(double steps)
   {
-  
+  	StepsTaken+=steps;
   }
   public double DamageReceived = 0; 
   public void increaseDamageReceived(double damage)
   {
-    
+    DamageReceived+=damage;
   }
   public double ExperienceAccumulated = 0; 
   public void increaseExperienceAccumulated(double exp)
   {
-    
+    ExperienceAccumulated+=exp;
   }
   public double DistanceTraveled = 0; 
   public void increaseDistanceTraveled(double distance)
   {
-    
+    DistanceTraveled+=distance;
   }
 }
