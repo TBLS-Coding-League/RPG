@@ -1,21 +1,30 @@
 public class Inventory {
-
-  public static void main(String[] args) {
-
-  List armor = new ArrayList();
   
-  for (int i = 0; i < 4; i++)
-  {
-      armor.add(null);
+  private List armor = new ArrayList();
+  private List bag = new ArrayList();
+  
+  public static void main(String[] args) {
+      
+      for (int i = 0; i < 4; i++)
+      {
+          armor.add(null);
+      }      
+      for(int i=1; i<21; i++)
+      {
+          bag.add(null);         
+      }
+      
+      
   }
   
-  List bag = new ArrayList();
+  public void setItem(int slot, Object item)
+  {
+    bag.set(slot, item);
+  }
+  public void setItem(int slot, Armor item)
+  {
+    armor.set(slot, item);
+  }
   
-   for(int i=1; i<21; i++)
-   {
-       bag.add(null);         
-   }
-
 }
 
-}
